@@ -10,8 +10,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <title>Document</title>
+  <!--  <meta name="description" content="Portfolio website for Oliver Smith, a freelance web developer in London">     -->
+    <meta name="description" content="Hi I'm Oliver, a London based freelance web developer. Need a unique website made for your business? Then please get in touch.">
+    <meta name="keywords" content="Web Developer, Website, Web Development, Portfolio, Freelance, Programming, London">
+    <meta name="author" content="Oliver Smith">
+    <link rel="icon" type="image/png" href="/images/other/Logo attempt 3.png">
+
+    <title>Oliver Smith | Web Developer | London</title>
 </head>
 <body class="body">
     
@@ -19,11 +26,17 @@
 
     <header class="header">
         <div class="header-container">
-            <a href="#home"><img class="logo" src="images/other/Logo attempt 3.png" alt=""></a>
+            <a href="#home"><img class="logo" src="images/other/Logo attempt 3.png" alt="Oliver P Smith logo"></a>
             <div class="nav">
                 <a href="#profile" class="nav-link">Profile</a>
                 <a href="#work" class="nav-link">Work</a>
                 <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="social-links">
+                <a href="https://dribbble.com/OliverPSmith" target="_blank"><i class="fa fa-dribbble"></i></a>
+                <a href="https://github.com/OliverPSmith" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/oliver-smith-a17014209/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a class="insta-no-link" href="" target="_blank"><i class="fa fa-instagram"></i></a> 
             </div>
         </div>
         <div class="hamburger">
@@ -31,6 +44,7 @@
             <span></span>
             <span></span>
         </div>
+
     </header>
 
     <section class="landing-page" id="home">
@@ -46,21 +60,27 @@
 
     <section class="profile" id="profile">
         <div class="profile-container">
-            <div class="container-header"><h1>Profile</h1></div>
+            <div class="container-header">
+                <h1>Profile</h1>
+                <p>Your website should be completely bespoke, suited, and tailored to your needs. Thats where I come in.</p>
+            </div>
             <div class="profile-text">
                 <p>Hi, I'm Oliver.</p>
                 <p>I'm a self-taught front-end developer based in London.</p>
                 <p>Passionate about creating user-friendly and stylish web projects, 
                     I am also a self-taught designer.</p>
+             <!--   <p>Your website should be completely bespoke, suited and tailored to your needs, and thats where I come in.</p> -->
                 <p>For web apps and websites I use Javascript and React.</p>
                 <p>For styling I use CSS (with some Bootstrap experience).</p>
                 <p>And for my designing I use Figma.</p>
-                <br>
+                <br><br>
                 <p>I consider myself to be an excellent communicator, which helps me 
                     produce exactly what the client wants as well as giving them a clear  
                     understanding of what can be achieved.</p>
                 <p>I am also critical and analytical, spotting errors and fine 
                     tuning UI/UX for the best aesthetic and practical output on projects.</p>
+                    <br><br>
+                <p>All websites I make are designed to function on both desktop and mobile screen sizes.</p>
             </div>
             <div class="lang-and-tools">
                 <div class="lt-item"><i class="devicon-html5-plain-wordmark colored"></i></div>
@@ -76,122 +96,137 @@
         <div class="work-container">
             <div class="container-header"><h1>My Work</h1></div>
             <div class="work-types">
-                <div id="work-all-btn" class="work-type active">All</div>
+                <div id="work-all-btn" class="work-type ">All</div>
                 <span>/</span>
                 <div id="work-website-btn" class="work-type active">Websites</div>
                 <span>/</span>
-                <div id="work-web-design-btn" class="work-type active">Web Designs</div>
+                <div id="work-web-design-btn" class="work-type ">Web Designs</div>
                 <span>/</span>
-                <div id="work-web-app-btn" class="work-type active">Web Apps</div>
+                <div id="work-web-app-btn" class="work-type ">Web Apps</div>
             </div>
             
             <div class="projects-container">
                 <!--    Websites    -->
                 <div class="project project-website">
                     <div class="project-img-container">
-                        <img src="images/projects/Tanya Website Screenshot-min.png" alt="">
+                        <img src="images/projects/Tanya Website Screenshot-min.png" alt="voiceover artist portfolio website">
                     </div>
                     <div class="project-text-container">
                         <h2 class="project-title">Voiceover Artist Portfolio</h2>
-                        <p class="project-desc">A Movie App where you can search for your favourite movies using the 'OMDb' API. They can be added to and from a favourites section, which is saved to Local Storage.</p>
+                        <p class="project-desc">The client wanted to showcase their previous voiceover works as well 
+                            as display what services they offer. Made and styled to corroborate with the client's 
+                            personality and business. Features a contact section that directs straight to the client's
+                            email.</p>
                         <ul class="project-lang">
                             <li>html</li>
                             <li>css</li>
                             <li>javascript</li>
                             <li>responsive</li>
+                            <li>single page</li>
                         </ul>
                         <div class="project-links">
-                            <a href="">Live Site</a>
-                            <a href="">Github</a>
+                            <a href="http://tanyaosullivan.com/" target="_blank">Live Site</a>
+                            <a href="https://github.com/OliverPSmith/VoiceOver-Artist" target="_blank">Source Code</a>
                         </div>
                     </div>
                 </div>
                 <div class="project project-website">
                     <div class="project-img-container">
-                        <img src="images/projects/portfolio-screenshot-min.png" alt="">
+                        <img src="images/projects/portfolio-screenshot-min.png" alt="web developer portfolio website">
                     </div>
                     <div class="project-text-container">
                         <h2 class="project-title">Web Developer Portfolio</h2>
-                        <p class="project-desc">A Movie App where you can search for your favourite movies using the 'OMDb' API. They can be added to and from a favourites section, which is saved to Local Storage.</p>
+                        <p class="project-desc">My previous portfolio. A very different layout and style across three pages. Built with 
+                            a vision of keeping it professional, relaxed, informative, and utilising space to give 
+                            users room to breath.</p>
                         <ul class="project-lang">
                             <li>html</li>
                             <li>css</li>
                             <li>javascript</li>
                             <li>responsive</li>
                             <li>seo</li>
+                            <li>multi page</li>
                         </ul>
                         <div class="project-links">
-                            <a href="">Live Site</a>
-                            <a href="">Github</a>
+                            <a href="https://portfolioapril2022.netlify.app/" target="_blank">Live Site</a>
+                            <a href="https://github.com/OliverPSmith/portfolioApril2022" target="_blank">Source Code</a>
                         </div>
                     </div>
                 </div>
                 <div class="project project-website">
                     <div class="project-img-container">
-                        <img src="images/projects/demo-pizza-place-min.png" alt="">
+                        <img src="images/projects/demo-pizza-place-min.png" alt="pizza place website">
                     </div>
                     <div class="project-text-container">
                         <h2 class="project-title">Demo Website - Pizza Van</h2>
-                        <p class="project-desc">A Movie App where you can search for your favourite movies using the 'OMDb' API. They can be added to and from a favourites section, which is saved to Local Storage.</p>
+                        <p class="project-desc">A demo website for a made up 'Pizza Van Company'. Designed to be 
+                            similar to industry style but with a unique personality and design. Logo designed by me.</p>
                         <ul class="project-lang">
                             <li>html</li>
                             <li>css</li>
                             <li>javascript</li>
                             <li>responsive</li>
+                            <li>logo design</li>
+                            <li>multi page</li>
                         </ul>
                         <div class="project-links">
-                            <a href="">Live Site</a>
-                            <a href="">Github</a>
+                            <a href="https://demo-pizza-place.netlify.app/" target="_blank">Live Site</a>
+                            <a href="https://github.com/OliverPSmith/Demo-Pizza-Place" target="_blank">Source Code</a>
                         </div>
                     </div>
                 </div>
                 <div class="project project-website">
                     <div class="project-img-container">
-                        <img src="images/projects//PTK-website-min.png" alt="">
+                        <img src="images/projects//PTK-website-min.png" alt="personal trainer website">
                     </div>
                     <div class="project-text-container">
                         <h2 class="project-title">Demo Website - Personal Trainers</h2>
-                        <p class="project-desc">A Movie App where you can search for your favourite movies using the 'OMDb' API. They can be added to and from a favourites section, which is saved to Local Storage.</p>
+                        <p class="project-desc">A demo website for a made up 'Personal Trainer Company'. Also designed to
+                            match industry style, where a simple, efficient and slightly more stripped back layout and 
+                            styling suits the needs of the website.</p>
                         <ul class="project-lang">
                             <li>html</li>
                             <li>css</li>
                             <li>javascript</li>
                             <li>responsive</li>
+                            <li>multi page</li>
                         </ul>
                         <div class="project-links">
-                            <a href="">Live Site</a>
-                            <a href="">Github</a>
+                            <a href="https://demo-personal-trainers-site.netlify.app/index.html" target="_blank">Live Site</a>
+                            <a href="https://github.com/OliverPSmith/Demo-Personal-Trainer-Website" target="_blank">Source Code</a>
                         </div>
                     </div>
                 </div>
                 <!--    Web Design    -->
-                <div class="project project-web-design">
+                <div class="project project-web-design hide">
                     <div class="project-img-container">
-                        <img src="images/projects/Welcome : Register : Sign in.png" alt="">
+                        <img src="images/projects/Welcome : Register : Sign in.png" alt="Mobile size welcome, register and log in">
                     </div>
                     <div class="project-text-container">
-                        <h2 class="project-title">Voiceover Artist Portfolio</h2>
-                        <p class="project-desc">A Movie App where you can search for your favourite movies using the 'OMDb' API. They can be added to and from a favourites section, which is saved to Local Storage.</p>
+                        <h2 class="project-title"> Demo Welcome / Register / Sign In - Book Store</h2>
+                        <p class="project-desc">Sign in, Register, or skip these procedures for a made up online 'Book Store' 
+                            on a mobile device. Logo designed and created by me.</p>
                         <ul class="project-lang">
-                            <li>html</li>
-                            <li>css</li>
-                            <li>javascript</li>
-                            <li>responsive</li>
+                            <li>figma</li>
+                            <li>mobile</li>
+                            <li>logo design</li>
                         </ul>
                         <div class="project-links">
-                            <a href="">Live Site</a>
-                            <a href="">Github</a>
+                            <a href="https://dribbble.com/OliverPSmith" target="_blank">Dribbble</a>
+
                         </div>
                     </div>
                 </div>
                 <!--    Web Apps    -->
-                <div class="project project-web-app">
+                <div class="project project-web-app hide">
                     <div class="project-img-container">
-                        <img src="images/projects/movieAppReact-min.png" alt="">
+                        <img src="images/projects/movieAppReact-min.png" alt="movie favourites app">
                     </div>
                     <div class="project-text-container">
                         <h2 class="project-title">Movie Favourites App</h2>
-                        <p class="project-desc">A Movie App where you can search for your favourite movies using the 'OMDb' API. They can be added to and from a favourites section, which is saved to Local Storage.</p>
+                        <p class="project-desc">A Movie App where you can search for your favourite movies using the 
+                            'OMDb' API. They can be added to and from a favourites section, which is saved to Local 
+                            Storage.</p>
                         <ul class="project-lang">
                             <li>react</li>
                             <li>fetch api</li>
@@ -200,18 +235,20 @@
                             <li>responsive</li>
                         </ul>
                         <div class="project-links">
-                            <a href="">Live Site</a>
-                            <a href="">Github</a>
+                            <a href="https://favourite-movie-react.netlify.app/" target="_blank">Live Site</a>
+                            <a href="https://github.com/OliverPSmith/movie-App-React" target="_blank">Source Code</a>
                         </div>
                     </div>
                 </div>
-                <div class="project project-web-app">
+                <div class="project project-web-app hide">
                     <div class="project-img-container">
-                        <img src="images/projects/notesAppReact-min.png" alt="">
+                        <img src="images/projects/notesAppReact-min.png" alt="notes app">
                     </div>
                     <div class="project-text-container">
                         <h2 class="project-title">Notes App</h2>
-                        <p class="project-desc">A Movie App where you can search for your favourite movies using the 'OMDb' API. They can be added to and from a favourites section, which is saved to Local Storage.</p>
+                        <p class="project-desc">A Notes App where you can add and delete notes, which are then saved 
+                            to Local Storage. Features included are a search filter on the notes list, a character 
+                            count on the new note, and being able to easily switch to and from Dark Mode.</p>
                         <ul class="project-lang">
                             <li>react</li>
                             <li>local storage</li>
@@ -219,18 +256,21 @@
                             <li>responsive</li>
                         </ul>
                         <div class="project-links">
-                            <a href="">Live Site</a>
-                            <a href="">Github</a>
+                            <a href="https://local-storage-notes-app-react.netlify.app/" target="_blank">Live Site</a>
+                            <a href="https://github.com/OliverPSmith/notes-App-React" target="_blank">Source Code</a>
                         </div>
                     </div> 
                 </div>
-                <div class="project project-web-app">
+                <div class="project project-web-app hide">
                     <div class="project-img-container">
-                        <img src="images/projects/weatherAppPic-min.png" alt="">
+                        <img src="images/projects/weatherAppPic-min.png" alt="weather app">
                     </div>
                     <div class="project-text-container">
                         <h2 class="project-title">Weather App</h2>
-                        <p class="project-desc">A Movie App where you can search for your favourite movies using the 'OMDb' API. They can be added to and from a favourites section, which is saved to Local Storage.</p>
+                        <p class="project-desc">A Weather App usng the 'weatherstack' API, retrieving weather info for 
+                            anywhere in the world. Information received includes the 'name', 'time' and 'weather' of 
+                            the searched location. With additional information such as the 'feels like' temperature, 
+                            'cloudcover', 'humidity', and when the weather was last checked.</p>
                         <ul class="project-lang">
                             <li>html</li>
                             <li>css</li>
@@ -239,36 +279,38 @@
                             <li>responsive</li>
                         </ul>
                         <div class="project-links">
-                            <a href="">Live Site</a>
-                            <a href="">Github</a>
+                            <a href="https://second-weather-app.netlify.app/" target="_blank">Live Site</a>
+                            <a href="https://github.com/OliverPSmith/weatherApp" target="_blank">Source Code</a>
                         </div>
                     </div>
                 </div>
-                <div class="project project-web-app">
+                <div class="project project-web-app hide">
                     <div class="project-img-container">
-                        <img src="images/projects/textFormatterImg-min.png" alt="">
+                        <img src="images/projects/textFormatterImg-min.png" alt="text formatter">
                     </div>
                     <div class="project-text-container">
                         <h2 class="project-title">Text Formatter</h2>
-                        <p class="project-desc">A Movie App where you can search for your favourite movies using the 'OMDb' API. They can be added to and from a favourites section, which is saved to Local Storage.</p>
+                        <p class="project-desc">Type a sentence and have it converted to 'Title Case', 'UPPERCASE', 
+                            and 'lowercase'. There is also a word, character, and sentence count.</p>
                         <ul class="project-lang">
                             <li>html</li>
                             <li>css</li>
                             <li>javascript</li>
                         </ul>
                         <div class="project-links">
-                            <a href="">Live Site</a>
-                            <a href="">Github</a>
+                            <a href="https://my-text-formatter.netlify.app/" target="_blank">Live Site</a>
+                            <a href="https://github.com/OliverPSmith/textFormatter" target="_blank">Source Code</a>
                         </div>
                     </div>
                 </div>
-                <div class="project project-web-app">
+                <div class="project project-web-app hide">
                     <div class="project-img-container">
-                        <img src="images/projects/memeGeneratorPic-min.png" alt="">
+                        <img src="images/projects/memeGeneratorPic-min.png" alt="meme generator">
                     </div>
                     <div class="project-text-container">
                         <h2 class="project-title">Meme Generator</h2>
-                        <p class="project-desc">A Movie App where you can search for your favourite movies using the 'OMDb' API. They can be added to and from a favourites section, which is saved to Local Storage.</p>
+                        <p class="project-desc">Upload a picture and write text at the top and bottom of the image. 
+                            Save the image with the text to your device.</p>
                         <ul class="project-lang">
                             <li>html</li>
                             <li>css</li>
@@ -276,18 +318,20 @@
                             <li>responsive</li>
                         </ul>
                         <div class="project-links">
-                            <a href="">Live Site</a>
-                            <a href="">Github</a>
+                            <a href="https://my-meme-generator-2022.netlify.app/" target="_blank">Live Site</a>
+                            <a href="https://github.com/OliverPSmith/textFormatter" target="_blank">Source Code</a>
                         </div>
                     </div>
                 </div>
-                <div class="project project-web-app">
+                <div class="project project-web-app hide">
                     <div class="project-img-container">
-                        <img src="images/projects/passwordGeneratorPic-min.png" alt="">
+                        <img src="images/projects/passwordGeneratorPic-min.png" alt="password generator">
                     </div>
                     <div class="project-text-container">
                         <h2 class="project-title">Password Generator</h2>
-                        <p class="project-desc">A Movie App where you can search for your favourite movies using the 'OMDb' API. They can be added to and from a favourites section, which is saved to Local Storage.</p>
+                        <p class="project-desc">Randomly generate a password made out of numbers, uppercase letters, 
+                            lowercase letters snd symbols at your discretion. Adjust the amount of characters you 
+                            want included.</p>
                         <ul class="project-lang">
                             <li>html</li>
                             <li>css</li>
@@ -295,8 +339,8 @@
                             <li>responsive</li>
                         </ul>
                         <div class="project-links">
-                            <a href="">Live Site</a>
-                            <a href="">Github</a>
+                            <a href="https://generate-new-password.netlify.app/" target="_blank">Live Site</a>
+                            <a href="https://github.com/OliverPSmith/passwordGenerator" target="_blank">Source Code</a>
                         </div>
                     </div>
                 </div>
@@ -307,16 +351,14 @@
 
     <section id="contact" class="contact">
         <div class="contact-container">
-          <!--  <div class="container-header"><h1>Contact</h1></div>    -->
             <div class="contact-splash">
                 <h1>Want to get in touch?</h1>
                 <p>If you would like to discuss potentially working together then send me an email and I'll respond ASAP.</p>
-                <p>Or if you would like to see some more of my work then feel free to check out my <a href="">Dribbble</a> and <a href="">Github</a> pages.</p>
-                <a class="email-link" href="mailto:oliver_smith@hotmail.co.uk">Email Me <i class="fa fa-envelope"></i>
-                </a>
+                <p>Or if you would like to see some more of my work then feel free to check out my <a target="_blank" href="https://dribbble.com/OliverPSmith">Dribbble</a> and <a target="_blank" href="https://github.com/OliverPSmith">Github</a> pages.</p>
+                <a class="email-link" href="mailto:oliver_smith@hotmail.co.uk">Email Me <i class="fa fa-envelope"></i></a>
             </div>
             <p class="ty-msg">Thank you for checking out my Portfolio, I hope to hear from you soon.</p>
-            <img class="contact-logo" src="/images/other/Logo attempt 3.png" alt="">
+            <img class="contact-logo" src="/images/other/Logo attempt 3.png" alt="Oliver P Smith's logo">
         </div>
     </section>
     
